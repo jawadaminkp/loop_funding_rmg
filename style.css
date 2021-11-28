@@ -28,7 +28,6 @@
 
 .coming_soon_banner {
   height: 250px !important;
-  margin-top: 100px;
 }
 
 .message {
@@ -60,7 +59,7 @@
   height: 13vh;
   width: 50%;
   border: 2px solid black;
-  outline: rgba(7, 7, 7, 0.548) solid 10px;
+  outline: #3b84c1 solid 10px;
   outline-style: solid;
   text-align: center;
 }
@@ -68,6 +67,7 @@
 .texts:hover {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
+  outline: #bbce2d solid 10px;
 }
 
 .text {
@@ -96,6 +96,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 200px;
 }
 
@@ -123,6 +126,12 @@
   border-radius: 0px !important;
   font-size: 12px;
   text-transform: uppercase;
+}
+
+.buttons .btn:hover {
+  background-color: #bbce2d !important;
+  border: #bbce2d;
+  color: #3b84c1;
 }
 
 @media screen and (max-width: 995px) {
