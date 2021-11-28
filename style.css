@@ -147,6 +147,9 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  .buttons .btn {
+    margin: 10px;
+  }
 }
 
 @media screen and (max-width: 995px) {
